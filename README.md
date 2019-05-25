@@ -29,6 +29,19 @@ cc.find({ name: 'Algeria' });
 cc.countries.DZA.name; // 'Algeria'
 
 cc.countries.GBR.isoNumeric; //'826'
+
+// nameIncludes
+cc.nameIncludes('Trinidad');
+/**
+ [
+  {
+    name: 'Trinidad and Tobago',
+    alpha2: 'TT',
+    alpha3: 'TTO',
+    isoNumeric: '780',
+  },
+ ]
+ **/
 ```
 
 Notes:

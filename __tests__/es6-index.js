@@ -1,4 +1,4 @@
-const cc = require('./../src/index.js');
+const cc = require('../src/index.js');
 
 describe('es6 src', () => {
   it('test algeria lookup', () => {

@@ -6,6 +6,11 @@
   "license": "MIT",
   "repository": "https://github.com/lwhiteley/cc.git",
   "main": "dist/index.js",
+  "keywords": [
+    "country", 
+    "country-code", 
+    "iso"
+  ],
   "scripts": {
     "build": "babel src --out-dir dist",
     "test": "run-s build test:all",

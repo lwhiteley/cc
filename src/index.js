@@ -15,7 +15,9 @@ export default {
   },
   nameIncludes: name => {
     return filter(countryData, country => {
-      return get(country, 'name', '').includes(name || '');
+      return get(country, 'name', '')
+        .toLowerCase()
+        .includes((name || '').toLowerCase());
     });
   },
   countries: countryData,

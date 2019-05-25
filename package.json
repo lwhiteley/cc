@@ -10,7 +10,8 @@
     "build": "babel src --out-dir dist",
     "test": "run-s build test:all",
     "test:all": "jest",
-    "test:ci": "jest --runInBand"
+    "test:ci": "run-s build test:ci-safe",
+    "test:ci-safe": "jest --runInBand"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",

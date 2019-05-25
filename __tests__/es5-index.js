@@ -1,4 +1,4 @@
-var cc = require('./../dist/index.js');
+const cc = require('./../dist/index.js');
 
 describe('es5 dist', () => {
   it('test algeria lookup', () => {

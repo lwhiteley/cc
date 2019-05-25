@@ -1,0 +1,5 @@
+src
+__tests__
+.babelrc
+.travis.yml
+jest.config.js

@@ -19,7 +19,7 @@ Country Code utility Library
 ## Usage
 
 ```javascript
-var cc = require('@genyus/country-code');
+const cc = require('@genyus/country-code');
 cc.find({ name: 'Algeria' });
 // { name: 'Algeria',
 //   alpha2: 'DZ',

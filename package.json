@@ -1,25 +1,25 @@
 {
-  "name": "country-code",
+  "name": "@genyus/country-code",
   "version": "0.0.3",
   "description": "Country Data utility Library, ISO Codes etc...",
-  "author": "Christian Kaatz <christian.kaatz@here.com>",
+  "author": "Layton Whiteley <layton.whiteley@gmail.com>",
   "license": "MIT",
-  "repository": "https://github.com/ckaatz-nokia/cc.git",
+  "repository": "https://github.com/lwhiteley/cc.git",
   "main": "dist/index.js",
   "scripts": {
-    "build": "grunt build",
-    "test": "grunt test"
+    "build": "babel src --out-dir dist",
+    "test": "run-s build test:all",
+    "test:all": "jest",
+    "test:ci": "jest --runInBand"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-babel": "^5.0.1",
-    "grunt-contrib-jshint": "^0.11.2",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "jshint": "^2.8.0",
-    "load-grunt-tasks": "^3.2.0"
+    "@babel/cli": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-plugin-add-module-exports": "^1.0.2",
+    "jest": "^24.8.0",
+    "npm-run-all": "^4.1.5"
   },
   "dependencies": {
-    "babel": "^5.6.14",
-    "underscore": "^1.8.3"
+    "lodash": "^4.17.11"
   }
 }

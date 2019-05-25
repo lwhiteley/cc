@@ -1,18 +1,15 @@
-require('babel/register');
-require("babel/polyfill");
-import _ from "underscore";
+import isEmpty from 'lodash/isEmpty';
+import isObject from 'lodash/isObject';
+import find from 'lodash/find';
 
 const countryData = require('./../util/country-data');
 
-function find(opts) {
-    if (!_.isEmpty(opts) && _.isObject(opts)) {
-        return _.findWhere(countryData, opts);
-    } else {
-        return undefined;
-    }
-}
-
 export default {
-    find: find,
-    countries: countryData
+  find: opts => {
+    if (!isEmpty(opts) && isObject(opts)) {
+      return find(countryData, opts);
+    }
+    return undefined;
+  },
+  countries: countryData,
 };

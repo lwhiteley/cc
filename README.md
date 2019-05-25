@@ -1,6 +1,7 @@
 # country-code
 
-[![NPM version](https://badge.fury.io/js/country-code.svg)](http://badge.fury.io/js/country-code) [![![Build Status](https://travis-ci.org/lwhiteley/cc.svg?branch=master)](https://travis-ci.org/lwhiteley/cc)
+[![npm version](https://badge.fury.io/js/%40genyus%2Fcountry-code.svg)](https://badge.fury.io/js/%40genyus%2Fcountry-code)
+[![Build Status](https://travis-ci.org/lwhiteley/cc.svg?branch=master)](https://travis-ci.org/lwhiteley/cc)
 
 Country Code utility Library
 

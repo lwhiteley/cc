@@ -33,4 +33,5 @@ cc.countries.GBR.isoNumeric; //'826'
 
 Notes:
 
-pull requests welcome
+- fork and update of [country-code](https://www.npmjs.com/package/country-code)
+- pull requests welcome

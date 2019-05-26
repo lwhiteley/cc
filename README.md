@@ -31,7 +31,11 @@ cc.countries.DZA.name; // 'Algeria'
 cc.countries.GBR.isoNumeric; //'826'
 
 // nameIncludes
-cc.nameIncludes('Trinidad');
+/**
+ * options.accuracy {Number}: number from 0 - 1, a percentage of accuracy for the search,
+ *                                  default (1 [exactly includes])
+ **/
+cc.nameIncludes('Trinidad', { accuracy: 0.7 });
 /**
  [
   {

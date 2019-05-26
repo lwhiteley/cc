@@ -25,6 +25,49 @@ describe('es5 dist', () => {
     expect(result).toEqual(expected);
   });
 
+  it('should find list with multiple countries by using nameIncludes', () => {
+    const result = cc.nameIncludes('us', { accuracy: 0.7 });
+    const expected = [
+      {
+        alpha2: 'AU',
+        alpha3: 'AUS',
+        isoNumeric: '036',
+        name: 'Australia',
+      },
+      {
+        alpha2: 'AT',
+        alpha3: 'AUT',
+        isoNumeric: '040',
+        name: 'Austria',
+      },
+      {
+        alpha2: 'RU',
+        alpha3: 'RUS',
+        isoNumeric: '643',
+        name: 'Russian Federation',
+      },
+      {
+        alpha2: 'US',
+        alpha3: 'USA',
+        isoNumeric: '840',
+        name: 'United States of America',
+      },
+      {
+        alpha2: 'UM',
+        alpha3: 'UMI',
+        isoNumeric: '581',
+        name: 'United States Minor Outlying Islands',
+      },
+      {
+        alpha2: 'VI',
+        alpha3: 'VIR',
+        isoNumeric: '850',
+        name: 'Virgin Islands, US',
+      },
+    ];
+    expect(result).toEqual(expected);
+  });
+
   it('test getting all values', () => {
     expect(cc.countries.GBR.name).toEqual('United Kingdom');
     expect(cc.countries.GBR.alpha2).toEqual('GB');

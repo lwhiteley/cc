@@ -52,3 +52,7 @@ Notes:
 
 - fork and update of [country-code](https://www.npmjs.com/package/country-code)
 - pull requests welcome
+
+Breaking changes:
+
+- some country names were renamed with the original values put in a property called `countryName`

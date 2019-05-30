@@ -276,13 +276,15 @@
         "isoNumeric": "156"
     },
     "HKG": {
-        "name": "Hong Kong, Special Administrative Region of China",
+        "name": "Hong Kong",
+        "countryName": "Hong Kong, Special Administrative Region of China",
         "alpha2": "HK",
         "alpha3": "HKG",
         "isoNumeric": "344"
     },
     "MAC": {
-        "name": "Macao, Special Administrative Region of China",
+        "name": "Macau",
+        "countryName": "Macao, Special Administrative Region of China",
         "alpha2": "MO",
         "alpha3": "MAC",
         "isoNumeric": "446"
@@ -312,13 +314,14 @@
         "isoNumeric": "174"
     },
     "COG": {
-        "name": "Congo (Brazzaville)",
+        "name": "Republic of the Congo",
+        "countryName": "Congo (Brazzaville)",
         "alpha2": "CG",
         "alpha3": "COG",
         "isoNumeric": "178"
     },
     "COD": {
-        "name": "Congo, Democratic Republic of the",
+        "name": "Democratic Republic of the Congo",
         "alpha2": "CD",
         "alpha3": "COD",
         "isoNumeric": "180"
@@ -432,7 +435,8 @@
         "isoNumeric": "231"
     },
     "FLK": {
-        "name": "Falkland Islands (Malvinas)",
+        "name": "Falkland Islands",
+        "countryName": "Falkland Islands (Malvinas)",
         "alpha2": "FK",
         "alpha3": "FLK",
         "isoNumeric": "238"
@@ -588,7 +592,8 @@
         "isoNumeric": "334"
     },
     "VAT": {
-        "name": "Holy See (Vatican City State)",
+        "name": "Vatican City",
+        "countryName": "Holy See (Vatican City State)",
         "alpha2": "VA",
         "alpha3": "VAT",
         "isoNumeric": "336"
@@ -624,7 +629,8 @@
         "isoNumeric": "360"
     },
     "IRN": {
-        "name": "Iran, Islamic Republic of",
+        "name": "Iran",
+        "countryName": "Islamic Republic of Iran",
         "alpha2": "IR",
         "alpha3": "IRN",
         "isoNumeric": "364"
@@ -702,13 +708,15 @@
         "isoNumeric": "296"
     },
     "PRK": {
-        "name": "Korea, Democratic People's Republic of",
+        "name": "South Korea",
+        "countryName": "Democratic People's Republic of Korea",
         "alpha2": "KP",
         "alpha3": "PRK",
         "isoNumeric": "408"
     },
     "KOR": {
-        "name": "Korea, Republic of",
+        "name": "North Korea",
+        "countryName": "Republic of Korea",
         "alpha2": "KR",
         "alpha3": "KOR",
         "isoNumeric": "410"
@@ -780,7 +788,7 @@
         "isoNumeric": "442"
     },
     "MKD": {
-        "name": "Macedonia, Republic of",
+        "name": "North Macedonia",
         "alpha2": "MK",
         "alpha3": "MKD",
         "isoNumeric": "807"
@@ -858,7 +866,7 @@
         "isoNumeric": "484"
     },
     "FSM": {
-        "name": "Micronesia, Federated States of",
+        "name": "Federated States of Micronesia",
         "alpha2": "FM",
         "alpha3": "FSM",
         "isoNumeric": "583"
@@ -1014,7 +1022,8 @@
         "isoNumeric": "585"
     },
     "PSE": {
-        "name": "Palestinian Territory, Occupied",
+        "name": "Palestine",
+        "countryName": "Palestinian Territory, Occupied",
         "alpha2": "PS",
         "alpha3": "PSE",
         "isoNumeric": "275"
@@ -1128,7 +1137,8 @@
         "isoNumeric": "662"
     },
     "MAF": {
-        "name": "Saint-Martin (French part)",
+        "name": "Saint-Martin",
+        "countryName": "Saint-Martin (French part)",
         "alpha2": "MF",
         "alpha3": "MAF",
         "isoNumeric": "663"
@@ -1290,13 +1300,15 @@
         "isoNumeric": "756"
     },
     "SYR": {
-        "name": "Syrian Arab Republic (Syria)",
+        "name": "Syria",
+        "countryName": "Syrian Arab Republic (Syria)",
         "alpha2": "SY",
         "alpha3": "SYR",
         "isoNumeric": "760"
     },
     "TWN": {
-        "name": "Taiwan, Republic of China",
+        "name": "Taiwan",
+        "countryName": "Taiwan, Republic of China",
         "alpha2": "TW",
         "alpha3": "TWN",
         "isoNumeric": "158"
@@ -1308,7 +1320,8 @@
         "isoNumeric": "762"
     },
     "TZA": {
-        "name": "Tanzania *, United Republic of",
+        "name": "Tanzania",
+        "countryName": "Tanzania *, United Republic of",
         "alpha2": "TZ",
         "alpha3": "TZA",
         "isoNumeric": "834"
@@ -1434,7 +1447,8 @@
         "isoNumeric": "548"
     },
     "VEN": {
-        "name": "Venezuela (Bolivarian Republic of)",
+        "name": "Venezuela",
+        "countryName": "Venezuela (Bolivarian Republic of)",
         "alpha2": "VE",
         "alpha3": "VEN",
         "isoNumeric": "862"

@@ -1270,7 +1270,7 @@
         "isoNumeric": "736"
     },
     "SUR": {
-        "name": "Suriname *",
+        "name": "Suriname",
         "alpha2": "SR",
         "alpha3": "SUR",
         "isoNumeric": "740"
@@ -1321,7 +1321,7 @@
     },
     "TZA": {
         "name": "Tanzania",
-        "countryName": "Tanzania *, United Republic of",
+        "countryName": "United Republic of Tanzania",
         "alpha2": "TZ",
         "alpha3": "TZA",
         "isoNumeric": "834"

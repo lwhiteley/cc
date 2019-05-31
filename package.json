@@ -1,6 +1,6 @@
 {
   "name": "@genyus/country-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Country Data utility Library, ISO Codes etc...",
   "author": "Layton Whiteley <layton.whiteley@gmail.com>",
   "license": "MIT",
